@@ -18,9 +18,9 @@ Gem::Specification.new do |s|
 
   s.add_dependency "rails", "< 5.1"
 
-  s.add_development_dependency 'rspec-rails', '~> 3.2.0'
-  s.add_development_dependency 'rspec-its', '~> 1.1.0'
-  s.add_development_dependency 'shoulda-matchers', '~> 2.8.0'
-  s.add_development_dependency 'database_cleaner', '~> 1.4.0'
-  s.add_development_dependency 'guard-rspec', '~> 4.5.0'
+  s.add_development_dependency 'rspec-rails', '~> 3.2', '>= 3.2.0'
+  s.add_development_dependency 'rspec-its', '~> 1.1', '>= 1.1.0'
+  s.add_development_dependency 'shoulda-matchers', '~> 2.8', '>= 2.8.0'
+  s.add_development_dependency 'database_cleaner', '~> 1.4', '>= 1.4.0'
+  s.add_development_dependency 'guard-rspec', '~> 4.5', '>= 4.5.0'
 end
